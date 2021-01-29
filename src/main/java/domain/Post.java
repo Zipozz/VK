@@ -4,8 +4,8 @@ import java.util.Date;
 
 public class Post {
     private int id;
-    private int ownerId; //идентификатор владельца стены
-    private int fromId; //идентификатор автора записи
+    private int ownerId;
+    private int fromId;
     private int createdBy;
     private int replyOwnerId;
     private int replyPostId;
@@ -22,11 +22,11 @@ public class Post {
     private boolean markedAsAds;
     private int postponedId;
     private boolean isFavorite;
-    private Date date;  //дата поста
+    private Date date;
     private String text;
-    private LikesInfo likesInfo; //лайки
-    private ShareInfo shareInfo;  //репосты
-    private CommentsInfo commentsInfo;  //коммментарии
+    private LikesInfo likesInfo;
+    private ShareInfo shareInfo;
+    private CommentsInfo commentsInfo;
 
     public int getId() {
         return id;
